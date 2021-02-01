@@ -55,7 +55,7 @@ EXAMPLES = r'''
 # tbd
   tasks:
     - name: Get puppet output
-      community.puppetdb_facts.puppetdbfacts:
+      mcen1.puppetdb_facts.puppetdbfacts:
         puppetdb_url: https://puppet.company.com:8081/pdb/query/v4/inventory
         cert_file: '{{puppetdb_public}}'
         pkey_file: '{{puppetdb_private}}'
